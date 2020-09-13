@@ -8,11 +8,11 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>020F33CE-5BD7-4279-BD3E-A76D46DEAFF0</key>
+		<key>C79BD94B-CDB5-4DCE-ACC6-384E8D320F9F</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>F12250B0-1CBF-4477-A2F1-8BCA55EF9615</string>
+				<string>003C6200-CFE9-421A-930D-8CA98A39315A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -25,7 +25,7 @@
 	<key>createdby</key>
 	<string>ytakahashi</string>
 	<key>description</key>
-	<string>chrome bookmark reader</string>
+	<string>Chrome Bookmark Reader</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -47,7 +47,7 @@
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>F12250B0-1CBF-4477-A2F1-8BCA55EF9615</string>
+			<string>003C6200-CFE9-421A-930D-8CA98A39315A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -79,9 +79,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>query=$1
-
-/Users/ytakahashi/.anyenv/envs/nodenv/shims/chrome-bookmark --file $filePath --pattern $query | jq '{ "items": . | map({title: .name, subtitle: .url, arg: .url}) }'
+				<string>./node_modules/.bin/run-node index.js "$1"
 </string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -92,14 +90,14 @@
 				<key>title</key>
 				<string></string>
 				<key>type</key>
-				<integer>5</integer>
+				<integer>0</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>020F33CE-5BD7-4279-BD3E-A76D46DEAFF0</string>
+			<string>C79BD94B-CDB5-4DCE-ACC6-384E8D320F9F</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -108,32 +106,32 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>020F33CE-5BD7-4279-BD3E-A76D46DEAFF0</key>
+		<key>003C6200-CFE9-421A-930D-8CA98A39315A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>135</integer>
+			<integer>280</integer>
 			<key>ypos</key>
-			<integer>250</integer>
+			<integer>105</integer>
 		</dict>
-		<key>F12250B0-1CBF-4477-A2F1-8BCA55EF9615</key>
+		<key>C79BD94B-CDB5-4DCE-ACC6-384E8D320F9F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>65</integer>
 			<key>ypos</key>
-			<integer>250</integer>
+			<integer>105</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
 	<dict>
-		<key>filePath</key>
+		<key>BOOKMARK_FILE_PATH</key>
 		<string></string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
-		<string>filePath</string>
+		<string>BOOKMARK_FILE_PATH</string>
 	</array>
 	<key>version</key>
-	<string>0.1.0</string>
+	<string></string>
 	<key>webaddress</key>
 	<string></string>
 </dict>

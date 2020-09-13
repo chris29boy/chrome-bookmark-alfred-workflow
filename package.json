@@ -1,0 +1,26 @@
+{
+  "name": "chrome-bookmark-alfred-workflow",
+  "version": "1.0.0",
+  "description": "Alfred worlflow to open google chrome bookmark",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ytakahashi/chrome-bookmark-alfred-workflow.git"
+  },
+  "keywords": [
+    "alfred"
+  ],
+  "author": "ytakahashi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ytakahashi/chrome-bookmark-alfred-workflow/issues"
+  },
+  "homepage": "https://github.com/ytakahashi/chrome-bookmark-alfred-workflow#readme",
+  "dependencies": {
+    "alfy": "^0.10.0",
+    "chrome-bookmark-reader": "^0.1.1"
+  }
+}
