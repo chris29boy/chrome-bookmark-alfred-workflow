@@ -18,7 +18,7 @@ const mapToItem = (bookmark) => {
     arg: bookmark.url,
     icon: {
       type: 'png',
-      path: 'icon.png',
+      path: 'icon.png'
     }
   }
 }
