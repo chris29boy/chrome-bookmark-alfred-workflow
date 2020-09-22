@@ -103,7 +103,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Alfred workflow to search Google Chrome Bookmark.</string>
 	<key>uidata</key>
 	<dict>
 		<key>003C6200-CFE9-421A-930D-8CA98A39315A</key>
@@ -131,8 +131,8 @@
 		<string>BOOKMARK_FILE_PATH</string>
 	</array>
 	<key>version</key>
-	<string></string>
+	<string>0.1.0</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/ytakahashi/chrome-bookmark-alfred-workflow</string>
 </dict>
 </plist>
