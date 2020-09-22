@@ -1,7 +1,7 @@
 {
   "name": "chrome-bookmark-alfred-workflow",
   "description": "Alfred workflow to search Google Chrome Bookmark.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "ytakahashi",
   "bugs": {
     "url": "https://github.com/ytakahashi/chrome-bookmark-alfred-workflow/issues"
